@@ -38,6 +38,7 @@ function reviewOrder() {
     fName = document.getElementById('fname').value;
     lName = document.getElementById('lname').value;
     eMail = document.getElementById('email').value;
+    phone = document.getElementById('phone').value;
     //Runs replaceForm() function if fields are not empty
     if (fName != 0 && lName != 0 && eMail != 0){
         replaceForm();
@@ -58,6 +59,8 @@ function replaceForm(){
             "<br/> \
             <label>Email Address: </label>" + eMail +
             "<br /> \
+            <label>Phone: </label>" + phone +
+            "<br/>\
             <label> \
                 Pizzas Ordered: " + pizzaNumberDiv.value +
             "</label> \
