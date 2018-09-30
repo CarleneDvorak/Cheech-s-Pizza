@@ -38,8 +38,10 @@ function reviewOrder() {
     fName = document.getElementById('fname').value;
     lName = document.getElementById('lname').value;
     eMail = document.getElementById('email').value;
-    //Runs replaceForm() function
-    replaceForm();
+    //Runs replaceForm() function if fields are not empty
+    if (fName != 0 && lName != 0 && eMail != 0){
+        replaceForm();
+    }
 }
 
 //Replaces the original form with an order summary
