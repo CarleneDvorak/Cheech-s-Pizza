@@ -3,61 +3,45 @@
 
 <head>
     <!--
-       Authors:Carlene Dvorak, Stan Razumov
-		
-     -->
+       Authors: Carlene Dvorak, Stan Razumov
+	 -->
     <title>Cheech's Pizza</title>
-    <script type="text/javascript" src="pizza.js"></script>
+    <script type="text/javascript" src="pizza.js" async></script>
     <meta charset="utf-8" />
-
     <link rel="stylesheet" href="pizza.css">
-
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="pizza.js" />
-
-
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<div class="container">
-
-    <body>
-        <form action="#" method="post">
+<body>
+        <form id="orderForm">
             <fieldset>
                 <legend><strong>Cheech's Pizza - Order Here</strong></legend>
-                <label for="fname">First Name</label>
-                <input type="text" name="fname" required>
+                <label >First Name</label>
+                <input type="text" id="fname" required>
                 <br />
-                <label for="lname">Last Name</label>
-                <input type="text" name="lname" required>
+                <label>Last Name</label>
+                <input type="text" id="lname" required>
+                <br/>
+                <label>Email Address</label>
+                <input type="text" id="email" required>
                 <br />
-
-                <label for="email">Email Address</label>
-                <input type="text" name="email" required>
-                <br />
-
-                <div>
-                    <label>
-                        How many Pizzas?
-                        <select name="amount">
-                            <!--JS should fill this with options from 1 to 10-->
+                <label>
+                     How many Pizzas?
+                    <select id="selectAmt" >
+                     <!-- JS fills # 1-10 -->   
+                    </select>
+                </label>
+                <label>
+                    Toppings?
+                        <select id="selectToppings">
+                        <!-- pizzaType array goes here-->
                         </select>
-                        <label>
-                            Toppings?
-                            <select name="toppings">
-                                <option>Cheese only</option>
-                                <option>Sausage</option>
-                                <option>Peperoni</option>
-                                <option>Anchovi</option>
-                            </select>
-                            <div>
-                                <label for="agreed">Confirm Order</label>
-                                <input id="review" name="agreed" <input type="submit">
-                            </div>
-                </div>
-
-            </fieldset>
+                        <br/>
+                        <label id="agreed">Confirm Order</label>
+                        <input id="review" type="submit">
+             </fieldset>
         </form>
-    </body>
+
+</body>
 
 </html>

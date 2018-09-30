@@ -2,7 +2,6 @@
 
 
 html {
-		font-family: 'Ranga', cursive;
 		max-width: 100%;
     }
 	
@@ -11,7 +10,8 @@ body {
 		background-image: url(pizzabg.jpeg);
 	}
 
-.container {
+form {
+	font-family: 'Ranga', cursive;
 	background-color: rgb(195, 239, 226);
 	box-shadow: 3px 3px 10px;
 }
