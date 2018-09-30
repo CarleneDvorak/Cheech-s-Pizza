@@ -7,7 +7,7 @@ var pizzaNumberDiv = document.getElementById('amount');
 var pizzaTypeDiv = document.getElementById('toppings');
 
 // Displays 1-4 for # of pizzas
-for (i = 1; i <= 4; i++) {
+for (i = 1; i <= 10; i++) {
     pizzaNumberDiv.innerHTML += "<option>" + i + "</option>";
 }
 

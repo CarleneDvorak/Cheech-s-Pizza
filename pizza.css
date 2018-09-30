@@ -1,14 +1,17 @@
 @charset "utf-8";
 
-.containter {font-size: 500px;
-}
-	
-body 
-	{
-		font-size: 50px;
-	}
-html 
-	{
+
+html {
 		font-family: 'Ranga', cursive;
 		font-size: 40px;
     }
+	
+body {
+		font-size: 50px;
+		background-image: url(pizzabg.jpeg);
+	}
+
+.container {
+	background-color: rgb(195, 239, 226);
+	box-shadow: 3px 3px 10px;
+}
