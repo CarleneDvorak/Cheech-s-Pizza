@@ -40,7 +40,7 @@ function reviewOrder() {
     eMail = document.getElementById('email').value;
     phone = document.getElementById('phone').value;
     //Runs replaceForm() function if fields are not empty
-    if (fName != 0 && lName != 0 && eMail != 0){
+    if (fName != 0 && lName != 0 && eMail != 0 && phone !=0){
         replaceForm();
     }
 }
