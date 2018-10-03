@@ -1,3 +1,4 @@
+//Authors: Carlene Dvorak, Stan Razumov
 // Declaring Types of Pizza Array
 var pizzaType = ['Cheese Only', 'Sausage', 'Peperoni', 'Anchovi', 'Italian'];
 
